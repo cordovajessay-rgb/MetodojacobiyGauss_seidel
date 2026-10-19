@@ -37,6 +37,5 @@ código se divide en tres métodos estáticos que devuelven los siguientes datos
 *Es una matriz diagonalmente dominante, lo cual garantiza que el método de Gauss-Seidel convergerá a una solución
 * obtenerVectorB: Devuelve un vector unidimensional con los términos independientes del sistema.
 * obtenerVectorX0: Devuelve el vector de aproximación inicial con valores en cero para comenzar las iteraciones del algoritmo.
-• Detectar posibles errores o fallas de lógica (como la división por cero en la diagonal).
-• Modificar el código para calcular el error de forma nativa sin depender de otra clase.
+• Detectar posibles errores o fallas de lógica (como la división por cero en la
 • Traducir este algoritmo a otro lenguaje como Python, C++ o MATLAB.
