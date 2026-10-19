@@ -29,6 +29,7 @@ Este código implementa el Método Iterativo de Jacobi en el lenguaje Java para 
 *Para cada fila i, inicializa una variable suma con el valor de b[i].
 *Resta los productos de los elementos de la matriz A[i][j] por los valores actuales de las incógnitas x[j] (siempre que (j = i).
 *Actualización inmediata: Calcula el nuevo valor de x[i] dividiendo la suma acumulada entre el elemento de la diagonal principal A[i][i]. Al usar x[j] directamente en la misma iteración, aprovecha los valores ya actualizados en lugar de los del ciclo anterior.
+
 #Defmatriz
  * encargada de inicializar y proporcionar los datos numéricos (matriz y vectores) necesarios para resolver un sistema de ecuaciones lineales.
 *Criterio de Parada: Utiliza una función externa (MetodoJacobi.calcularError) para medir la diferencia entre el vector anterior (xAnt) y el actual (x). Si este error es menor que la tolerancia (tol), detiene el proceso y devuelve la solución aproximada x.
